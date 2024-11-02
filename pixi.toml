@@ -1,0 +1,15 @@
+[project]
+authors = ["T145 <T145@protonmail.com>"]
+channels = ["conda-forge"]
+description = "Speaker comparison test"
+name = "coqui"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.9.*"
+
+[pypi-dependencies]
+TTS = { git = "https://github.com/coqui-ai/TTS.git" }
